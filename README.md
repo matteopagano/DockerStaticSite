@@ -21,7 +21,6 @@ Step 3/3 : COPY index.html /usr/share/nginx/html/index.html
 Removing intermediate container cb64bb3e3aca
 Successfully built 3407953dafd0
 ```
-
 To run the image in a Docker container, use the following command
 ```sh
 $ docker run -itd --name mycontainer --publish 8080:80 <docker-hub-username>/staticsite:1.0
