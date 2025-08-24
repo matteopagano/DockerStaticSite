@@ -10,6 +10,7 @@ $ docker build -t <docker-hub-username>/staticsite:1.0 .
 ```
 This will produce the following output
 
+
 ```sh
 Sending build context to Docker daemon 81.41 kB
 Step 1/3 : FROM nginx:alpine
